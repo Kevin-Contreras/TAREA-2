@@ -10,4 +10,5 @@ def Csv (archivo):
       print(dato.get("nombre"))
       print(dato.get("carnet"))
       print(dato.get("carrera"))
+      print(dato.get("edad"))
   print("-------------------- ESTRUCTURA DE DATOS: CSV-----------------------------")
