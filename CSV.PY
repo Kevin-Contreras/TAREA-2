@@ -6,7 +6,7 @@ def Csv (archivo):
     archivoCsv = csv.DictReader(file)
     for dato in archivoCsv:
       n+=1
-      print("---------- DATO " + str(n)+" ---------") 
+      print("*********** DATO " + str(n)+" ************") 
       print(dato.get("nombre"))
       print(dato.get("carnet"))
       print(dato.get("carrera"))
